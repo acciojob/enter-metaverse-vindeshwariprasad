@@ -1,7 +1,11 @@
 //your JS code here. If required.
-function okay() {
-	let a = document.getElementById("z");
+
+	let a = document.getElementById("status");
+	let b = document.getElementById("enterBtn");
+	
 	// alert(parseInt(a.innerHTML));
+b.addEventListener("click" , () => {
 	a.innerHTML = "<h1>Entered Metaverse</h1>";
 	
-}
+})
+	
